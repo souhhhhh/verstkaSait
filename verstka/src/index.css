@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { 
+  background: #e0e6db;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .glav {
+    @apply container mx-auto flex flex-col justify-center items-center relative 
+    tablet300:h-100vh tabletSmall:overflow-x-hidden
+  }
+}
